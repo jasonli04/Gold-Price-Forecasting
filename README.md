@@ -1,6 +1,6 @@
 # Group17MLProject
 
-Hi everyone!
+Hi everyone! This is the link to our Machine Learning Project Github Pages.
 https://github.gatech.edu/pages/sdesai328/Group17MLProject/
 
 
