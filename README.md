@@ -37,9 +37,11 @@ methods for price prediction and unsupervised methods for identifying market pat
 single-model approaches, the hybrid method will leverage diverse features and cross-validation
 to improve performance.
 
-hi
+
 
 ## Part 3: Methods
+
+### Proposal
 
 For preprocessing methods, we will use data cleaning, data transformation and feature
 engineering. Data cleaning will improve data reliability by handling missing values, outliers, and
@@ -53,6 +55,15 @@ importance, and reduce overfitting by averaging multiple decision trees. Linear 
 provides a baseline by modeling the relationship between gold prices and macroeconomic
 indicators like inflation and interest rates. Finally, GMM will help identify market patterns such
 as high and low volatility periods, illustrating structural patterns that influence price movements.
+
+### Midterm
+
+As a major change from our initial proposal, rather than predicting prices, we will be classifying data into two classes, buy and sell, where buy times have prices that are predicted to increase and sell times have prices that are predicted to increase. We chose to implement one unsupervised and one supervised learning model to classify our data into buy or sell times. 
+For our unsupervised learning model, we are using logistic regression. 
+
+
+For our supervised learning model, we are using a Gaussian Mixture Model (GMM).
+
 
 ## Part 4: Results and Discussion
 
