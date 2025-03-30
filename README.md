@@ -58,6 +58,10 @@ as high and low volatility periods, illustrating structural patterns that influe
 
 ### Midterm
 
+#### Data Preprocessing Strategies
+
+  The first step was to obtain our data using Yahoo Finance and storing gold prices from the ticker (GC=F) as a pandas series where we have Gold Open, Gold Close, and Gold Volume. After getting the data, we indexed it by date and forward filled any missing values.
+
 As a major change from our initial proposal, rather than predicting prices, we will be classifying data into two classes, buy and sell, where buy times have prices that are predicted to increase and sell times have prices that are predicted to increase. We chose to implement one unsupervised and one supervised learning model to classify our data into buy or sell times. 
 For our unsupervised learning model, we are using logistic regression. 
 
