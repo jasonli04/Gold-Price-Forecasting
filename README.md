@@ -91,7 +91,7 @@ Mechatronic Systems, Beijing, China, 2015, pp. 252-257. [IEEE Xplore](https://ie
 
 | Name     | Proposal Contributions |
 |----------|------------------------|
-| Aiden Wu | Contributed to the Literature Review, Backkground and Introduction, and Problem Definition. |
+| Aiden Wu | Contributed to the Literature Review, Background and Introduction, and Problem Definition. |
 | Krish Gawande  | Contributed to the Github Pages, the Potential Results and Discussions, and Gantt Chart.          |
 | Samay Desai  | Contributed to the Gantt Chart and the Potential Results and Discussions.           |
 | Jason Li  | Contributed to the ML Methods to use and the Potential Dataset section.          |
