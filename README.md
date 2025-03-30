@@ -132,7 +132,3 @@ Mechatronic Systems, Beijing, China, 2015, pp. 252-257. [IEEE Xplore](https://ie
 | Samay  | Contributed to Model 1 Implementation & Coding, Model 2 Data Cleaning, Model 2 Feature Reduction, Model 1 and Model 2 Results Evaluation, and Midterm Report. |
 
 
-
-
-
-hi
