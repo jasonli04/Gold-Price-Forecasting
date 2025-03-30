@@ -37,6 +37,8 @@ methods for price prediction and unsupervised methods for identifying market pat
 single-model approaches, the hybrid method will leverage diverse features and cross-validation
 to improve performance.
 
+hi
+
 ## Part 3: Methods
 
 For preprocessing methods, we will use data cleaning, data transformation and feature
