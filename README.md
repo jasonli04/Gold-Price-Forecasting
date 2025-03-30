@@ -60,7 +60,9 @@ as high and low volatility periods, illustrating structural patterns that influe
 
 #### Data Preprocessing Strategies
 
-  The first step was to obtain our data using Yahoo Finance and storing gold prices from the ticker (GC=F) as a pandas series where we have Gold Open, Gold Close, and Gold Volume. After getting the data, we indexed it by date and forward filled any missing values.
+The first step was to obtain our data using Yahoo Finance and storing gold prices from the ticker (GC=F) as a pandas series where we have Gold Open, Gold Close, and Gold Volume. After getting the data, we indexed it by date and forward filled any missing values. We also added a 5 day moving average for the Gold Close prices. In addition, we take more data from FRED using its API. We take quarterly information like GDP, Interest Rates, CPI, and Unemployment. Since it is quarterly data, we use the same number for all dates in its specific quarter. Additionally, we take foreign exchange rates as more feeatures. This includes USD-INR, USD-EUR, USD-CHF, and USD-JPY. After collecting all the economic indicators, we converted them into DataFrames, merged them into a single dataset, and reindexed everything to a daily frequency with forward filling to handle missing values. We also applied a log transformation to GDP to reduce skewness. Finally, we combined this economic data with the gold prices, calculated daily gold price changes, and saved the final dataset for modeling.
+
+#### Supervised and Unsupervised Algorithms
 
 As a major change from our initial proposal, rather than predicting prices, we will be classifying data into two classes, buy and sell, where buy times have prices that are predicted to increase and sell times have prices that are predicted to increase. We chose to implement one unsupervised and one supervised learning model to classify our data into buy or sell times. 
 For our unsupervised learning model, we are using logistic regression. 
