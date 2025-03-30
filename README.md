@@ -24,7 +24,7 @@ methods to try and forecast the nonlinear dynamics of gold prices which we look 
 ### Datasets
 
 - a. Historical gold data: [Yahoo Finance](https://finance.yahoo.com/quote/GC=F/)
-- b. Economic indicators like inflation, interest rates, and GDP growth: [FRED](https://fred.stlouisfed.org/)
+- b. Economic indicators like inflation, interest rates, GDP growth, and foreign exchange rates [4]: [FRED](https://fred.stlouisfed.org/)
 - c. Exchange rates: [IMF](https://www.imf.org/external/np/fin/data/param_rms_mth.aspx)
 
 ## Part 2: Problem Definition
@@ -96,6 +96,8 @@ Precious Metals," Technology and Investment, vol. 15, no. 4, pp. 183-197, 2024. 
 - [3] N. Zainal and Z. Mustaffa, "A Literature Review on Gold Price Predictive
 Techniques," in Proceedings of the 2015 International Conference on Advanced
 Mechatronic Systems, Beijing, China, 2015, pp. 252-257. [IEEE Xplore](https://ieeexplore.ieee.org/document/7324301)
+
+- [4] G. K. Nair, N. Choudhary, and H. Purohit, "The Relationship between Gold Prices and Exchange Value of US Dollar in India," Emerging Markets Journal, vol. 5, no. 1, pp. 1–7, 2015. [Online](https://emaj.pitt.edu/ojs/emaj/article/view/66)
 
 ## Part 6: Contribution Table and Gantt Chart
 
