@@ -75,6 +75,8 @@ K-means allows us to cluster similar data points that represent a common set of 
 
 ## Part 4: Results and Discussion
 
+### Proposal
+
 We will evaluate model performance using R², Mean Absolute Percentage Error (MAPE), and
 k-fold cross-validation. R² measures the proportion of variance in gold prices captured by our
 model, with higher values indicating better predictive accuracy. MAPE quantifies the average
