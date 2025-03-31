@@ -60,15 +60,14 @@ as high and low volatility periods, illustrating structural patterns that influe
 
 #### Data Preprocessing Strategies
 
-The first step was to obtain our data using Yahoo Finance and storing gold prices from the ticker (GC=F) as a pandas series where we have Gold Open, Gold Close, and Gold Volume. After getting the data, we indexed it by date and forward filled any missing values. We also added a 5 day moving average for the Gold Close prices. In addition, we take more data from FRED using its API. We take quarterly information like GDP, Interest Rates, CPI, and Unemployment. Since it is quarterly data, we use the same number for all dates in its specific quarter. Additionally, we take foreign exchange rates as more feeatures. This includes USD-INR, USD-EUR, USD-CHF, and USD-JPY. After collecting all the economic indicators, we converted them into DataFrames, merged them into a single dataset, and reindexed everything to a daily frequency with forward filling to handle missing values. We also applied a log transformation to GDP to reduce skewness. Finally, we combined this economic data with the gold prices, calculated daily gold price changes, and saved the final dataset for modeling.
+The first step was to obtain our data using Yahoo Finance and storing gold prices from the ticker (GC=F) as a pandas series where we have Gold Open, Gold Close, and Gold Volume. After getting the data, we indexed it by date and forward filled any missing values. Then, we decided to do feature engineering to create features that could explain price movement over time. This included adding a 5 day moving average, 100 day moving average for the Gold Close prices, and 5 day volatility. In addition, we take more data from FRED using its API. We take quarterly information like GDP, Interest Rates, CPI, and Unemployment. Since it is quarterly data, we use the same number for all dates in its specific quarter. Additionally, we take foreign exchange rates as more feeatures. This includes USD-INR, USD-EUR, USD-CHF, and USD-JPY. After collecting all the economic indicators, we converted them into DataFrames, merged them into a single dataset, and reindexed everything to a daily frequency with forward filling to handle missing values. We also applied a log transformation to GDP to reduce skewness. Finally, we combined this economic data with the gold prices, calculated daily gold price changes, and saved the final dataset for modeling.
 
 #### Supervised and Unsupervised Algorithms
 
-As a major change from our initial proposal, rather than predicting prices, we will be classifying data into two classes, buy and sell, where buy times have prices that are predicted to increase and sell times have prices that are predicted to increase. We chose to implement one unsupervised and one supervised learning model to classify our data into buy or sell times. 
-For our unsupervised learning model, we are using logistic regression. 
+As a major change from our initial proposal, we decided to change the algorithms we will implement since the initial attempts produced high MSE error on testing data versus training data. We chose to implement one unsupervised and one supervised learning model to classify our data into price predictions. 
+For our unsupervised learning model, we are using KMeans. 
 
-
-For our supervised learning model, we are using a Gaussian Mixture Model (GMM).
+For our supervised learning model, we are Ridge Regression.
 
 
 ## Part 4: Results and Discussion
@@ -89,6 +88,12 @@ result is the predicted price of gold, derived from multiple features such as in
 inflation, and exchange rates, alongside a high R² score, low MAPE, and consistent performance
 validated through cross-validation, which will provide insights to future investors into future
 market trends.
+
+### Midterm
+
+## Initial Results
+
+After implementing the first models, we saw that there was high correlation between features such as the exchange rates and CPI in relation to GDP. This made us reduce the number of features so that one exchange rate and log GDP would become significant in our model. This also reduced our MSE in training data and testing data. We initially used a 80/20 split for training data and testing data but we wanted to make sure that time wasn't as impactful on the model. Thus, we implemented a K-Fold approach which tested our data into 5 testing sections and showed meaningful results.
 
 ## Part 5: References
 
