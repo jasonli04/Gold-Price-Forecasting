@@ -65,9 +65,7 @@ The first step was to obtain our data using Yahoo Finance and storing gold price
 #### Supervised and Unsupervised Algorithms
 
 As a major change from our initial proposal, we decided to change the algorithms we will implement since the initial attempts produced high MSE error on testing data versus training data. We chose to implement one unsupervised and one supervised learning model to classify our data into price predictions. 
-For our unsupervised learning model, we are using KMeans. 
-
-For our supervised learning model, we are Ridge Regression.
+For our unsupervised learning model, we are using KMeans, and for our supervised learning model, we are using Ridge Regression.
 
 
 ## Part 4: Results and Discussion
