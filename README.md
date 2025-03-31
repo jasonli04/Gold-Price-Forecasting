@@ -70,7 +70,7 @@ For our unsupervised learning model, we are using KMeans, and for our supervised
 Supervised Learning Model (Ridge Regression):
 
 Unsupervised Learning Model (KMeans):
-
+K-means allows us to cluster similar data points that represent a common set of market trends. This can help us identify patterns in the gold market without using predefined labels. We implemented K-means with 4 clusters to group data into 4 types of market trends: bullish gold markets, bearish gold markets, stable markets, and high volatility periods each representing some commonalities between the features. K-Means makes sense to find these patterns in gold commodity behavior and cluster our data into these distinct categories. K-means alllows us to also deal with the high-dimentional data and organize it into these meaningful clusters. In the next section, we will talk more about what our clusters signify and justify what specific sets of feature values correspond to each of these clusters.
 
 
 ## Part 4: Results and Discussion
