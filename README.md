@@ -108,25 +108,7 @@ After implementing the first models, we saw that there was high correlation betw
 
 ![ridge_regression_residuals](https://github.gatech.edu/sdesai328/Group17MLProject/assets/70457/792db509-94f4-4014-8722-02cb9bbc1d94)
 
-Coefficients of Ridge Regression (for the last fold):
-                          Coefficient
-- Interest_Rate             0.510378
-- Unemployment              0.858407
-- USD_FRANC                -0.650862
-- SP500_Close               1.256518
-- Gold_Volume              -0.110560
-- Gold_Close_Change         8.157791
-- Gold_Close_MA_5         589.225158
-- Gold_Close_MA_100         8.489207
-- Gold_Close_Volatility    -0.082912
-- RSI                       0.596811
-- MACD_Histogram            4.162230
-
-Ridge Regression with K-Fold Cross-Validation:
-- Average Training R²: 0.9998
-- Average Test R²: 0.9983
-- Average Training MSE: 51.6950
-- Average Test MSE: 53.4709
+![Screenshot 2025-03-31 at 8 47 26 PM](https://github.gatech.edu/sdesai328/Group17MLProject/assets/70457/323ef232-886f-454f-a4f8-7f1463e1861c)
 
 #### Ridge Regression Model Evaluation + Discussion
 Though on first glance, the model may seem overfitted, as the predicted gold close line matches the true gold close to a striking degree, we believe that our model is not overfitted. Models that suffer from severe overfitting exhibit a very high Training R^2 and a much lower Testing R^2. This is becasue overfitted models generalize poorly to unseen data, resulting in a low R-squared on the test data. However, our model doesn't suffer from this same plight. With a Testing R^2 of 0.9998 and a Testing R^2 of 0.9983, the model performs very strongly on both the training set and testing set, showing that it generalizes nicely. Additionally, we can say the same about the Mean Squared Error Values. Both the training and testing set exhibit similar MSE values (~52), showing that we indeed are not overfitting.
