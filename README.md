@@ -127,8 +127,8 @@ As shown by the plot above, once we reach 4 groups, there seems to be an elbow. 
 
 ![Screenshot 2025-03-31 at 9 25 12 PM](https://github.gatech.edu/sdesai328/Group17MLProject/assets/70457/69fcec71-7700-4c84-854d-b2ae1106bf1e)
 
-###### Group Classifications: 
-- Group 0 (Purple): Bullish Gold Market (Rising gold prices, high RSI, moderate economic uncertainty)
+##### Group Classifications: 
+- Cluster 0 (Purple): Bullish Gold Market (Rising gold prices, high RSI, moderate economic uncertainty)
 - Cluster 1 (Blue): Bearish Gold Market (Falling gold prices, low RSI, strong stock market performance)
 - Cluster 2 (Teal): Stable Gold Market (Flat prices, low volume, low volatility, economic stability)
 - Cluster 3 (Yellow): Gold Boom / High Volatility (Strong price surges, high trading volume, economic event-driven spikes)
@@ -149,6 +149,8 @@ Techniques," in Proceedings of the 2015 International Conference on Advanced
 Mechatronic Systems, Beijing, China, 2015, pp. 252-257. [IEEE Xplore](https://ieeexplore.ieee.org/document/7324301)
 
 - [4] G. K. Nair, N. Choudhary, and H. Purohit, "The Relationship between Gold Prices and Exchange Value of US Dollar in India," Emerging Markets Journal, vol. 5, no. 1, pp. 1–7, 2015. [Online](https://emaj.pitt.edu/ojs/emaj/article/view/66)
+
+## Next Steps
 
 ## Part 6: Contribution Table and Gantt Chart
 
