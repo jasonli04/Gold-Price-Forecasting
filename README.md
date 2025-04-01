@@ -138,6 +138,10 @@ Using KMeans allows us to segement the many features of the data into 4 distinct
 
 ## Next Steps
 
+With regard to our KMeans implementation, we would like to perform a Principal Component Analysis (PCA) on our dataset to reduce the dimensionality of our data. Since our dataset contains many featues, and some being highly correlated, it would benefit us a lot to "simplify" the data via dimensionality reduction. This would likely help our clustering perform even better, as higher dimensionality is known to cause clustering algorithms to perform poorly. PCA will help us by removing noise and focusing on the most important patterns. We could also explore a probabilistic view of our data, using a Gaussian Mixture Model (GMM) to visualize and classify our data. This is because the stock market and price movements of commodities can be stochastic in nature, with normal distributions underlying many models. Using a GMM will allow for flexible cluster shapes and probabilistic assignments, which is known to be useful when cluster boundaries are not clear-cut or data is complex, as such is our case. 
+
+Another methodology we could try and explore would be Logisitc Regression, both Binary Classification and Multiclass Classification. In the binary model, the 2 categories would be "price increases" and "price decreases". In the multiclass model, we would have more nuanced categories, such as "large increase: price increases by over 5%", "small increase: price increases between 2-5%", "small/no chance: price stays within 2% of previous price", "small decrease: price decreases between 2-5%", and "large decrease: price decreases by over 5%". This would allow us to bucket our data/days into categories depending on how gold performs that day, then reverse engineer and see what common traits these days share.
+
 ## Part 5: References
 
 - [1] R. Ghule and A. Gadhave, "Gold Price Prediction using Machine Learning,"
