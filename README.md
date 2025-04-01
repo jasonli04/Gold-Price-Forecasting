@@ -113,8 +113,6 @@ After implementing the first models, we saw that there was high correlation betw
 #### Ridge Regression Model Evaluation + Discussion
 Though on first glance, the model may seem overfitted, as the predicted gold close line matches the true gold close to a striking degree, we believe that our model is not overfitted. Models that suffer from severe overfitting exhibit a very high Training $R^2$ and a much lower Testing $R^2$. This is becasue overfitted models generalize poorly to unseen data, resulting in a low R-squared on the test data. However, our model doesn't suffer from this same plight. With a Testing $R^2$ of 0.9998 and a Testing $R^2$ of 0.9983, the model performs very strongly on both the training set and testing set, showing that it generalizes nicely. Additionally, we can say the same about the Mean Squared Error Values. Both the training and testing set exhibit similar MSE values (~52), showing that we indeed are not overfitting.
 
-With respect to the model itself, gold moving averages (especially 5-day MA) had very large coefficients. This outsized coefficient (~590), however, may suggest that our model is heavily reliant, and possibly over-reliant on this moving average metric. Other factors which exhibited a large coefficent were S&P 500 close price and interest rates. Technical indicators like RSI and MACD showed meaningful but smaller impacts as well.
-
 ## KMeans 
 
 #### Determining Number of Groups
@@ -126,6 +124,14 @@ As shown by the plot above, once we reach 4 groups, there seems to be an elbow. 
 #### KMeans Model
 
 ![kmeans_image](https://github.gatech.edu/sdesai328/Group17MLProject/assets/70457/5ebce3cc-5025-40dc-9917-be61d8d7f3b1)
+
+![Screenshot 2025-03-31 at 9 25 12 PM](https://github.gatech.edu/sdesai328/Group17MLProject/assets/70457/69fcec71-7700-4c84-854d-b2ae1106bf1e)
+
+###### Group Classifications: 
+- Group 0 (Purple): Bullish Gold Market (Rising gold prices, high RSI, moderate economic uncertainty)
+- Cluster 1 (Blue): Bearish Gold Market (Falling gold prices, low RSI, strong stock market performance)
+- Cluster 2 (Teal): Stable Gold Market (Flat prices, low volume, low volatility, economic stability)
+- Cluster 3 (Yellow): Gold Boom / High Volatility (Strong price surges, high trading volume, economic event-driven spikes)
 
 #### KMeans Model Discussion
 
