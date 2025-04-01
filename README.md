@@ -100,6 +100,26 @@ market trends.
 
 After implementing the first models, we saw that there was high correlation between features such as the exchange rates and CPI in relation to GDP. This made us reduce the number of features so that one exchange rate and log GDP would become significant in our model. This also reduced our MSE in training data and testing data. We initially used a 80/20 split for training data and testing data but we wanted to make sure that time wasn't as impactful on the model. Thus, we implemented a K-Fold approach which tested our data into 5 testing sections and showed meaningful results.
 
+## Ridge Regression w/K-fold Cross Validation Plots and Metrics
+
+![ridge_regression_model](https://github.gatech.edu/sdesai328/Group17MLProject/assets/70457/0da553d6-297e-4264-8f32-e47b51995ea6)
+
+![ridge_regression_residuals](https://github.gatech.edu/sdesai328/Group17MLProject/assets/70457/792db509-94f4-4014-8722-02cb9bbc1d94)
+
+Ridge Regression with K-Fold Cross-Validation:
+- Average Training R²: 0.9998
+- Average Test R²: 0.9983
+- Average Training MSE: 51.6950
+- Average Test MSE: 53.4709
+
+## KMeans 
+
+# Determining Number of Groups
+
+![kmeans_cluster_elbows](https://github.gatech.edu/sdesai328/Group17MLProject/assets/70457/aff7786f-1406-4ea8-b0a2-249e6f759800)
+
+As shown by the plot above, once we reach 4 groups, there seems to be an elbow. The point suggests diminishing returns from adding more clusters, thus we chose to proceed with 4 clusters.
+
 ## Part 5: References
 
 - [1] R. Ghule and A. Gadhave, "Gold Price Prediction using Machine Learning,"
