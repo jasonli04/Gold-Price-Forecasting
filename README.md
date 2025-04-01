@@ -102,6 +102,8 @@ After implementing the first models, we saw that there was high correlation betw
 
 ## Ridge Regression w/K-fold Cross Validation Plots and Metrics
 
+#### Model + Quantitative Metrics
+
 ![ridge_regression_model](https://github.gatech.edu/sdesai328/Group17MLProject/assets/70457/0da553d6-297e-4264-8f32-e47b51995ea6)
 
 ![ridge_regression_residuals](https://github.gatech.edu/sdesai328/Group17MLProject/assets/70457/792db509-94f4-4014-8722-02cb9bbc1d94)
@@ -112,13 +114,21 @@ Ridge Regression with K-Fold Cross-Validation:
 - Average Training MSE: 51.6950
 - Average Test MSE: 53.4709
 
+#### Ridge Regression Model Discussion
+
 ## KMeans 
 
-# Determining Number of Groups
+#### Determining Number of Groups
 
 ![kmeans_cluster_elbows](https://github.gatech.edu/sdesai328/Group17MLProject/assets/70457/aff7786f-1406-4ea8-b0a2-249e6f759800)
 
 As shown by the plot above, once we reach 4 groups, there seems to be an elbow. The point suggests diminishing returns from adding more clusters, thus we chose to proceed with 4 clusters.
+
+#### KMeans Model
+
+![kmeans_image](https://github.gatech.edu/sdesai328/Group17MLProject/assets/70457/5ebce3cc-5025-40dc-9917-be61d8d7f3b1)
+
+#### KMeans Model Discussion
 
 ## Part 5: References
 
