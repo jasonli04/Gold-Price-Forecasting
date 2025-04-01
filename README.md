@@ -134,6 +134,9 @@ As shown by the plot above, once we reach 4 groups, there seems to be an elbow. 
 - Cluster 3 (Yellow): Gold Boom / High Volatility (Strong price surges, high trading volume, economic event-driven spikes)
 
 #### KMeans Model Discussion
+Using KMeans allows us to segement the many features of the data into 4 distinct groups. This enables us to look at any day in the dataset, or in the future, and label it into one of these 4 groups, giving us an insight into how the gold price may move that day. However, it does seem that KMean is relatively hit-or-miss when it comes to evaluating our dataset. Some clusters are well-separated, while others have overlapping regions, indicating that K-Means might not have perfectly segmented the data. Regardless, this does give us some valuable insight in how the price of gold may change on a certain day, given other measures.
+
+## Next Steps
 
 ## Part 5: References
 
@@ -149,8 +152,6 @@ Techniques," in Proceedings of the 2015 International Conference on Advanced
 Mechatronic Systems, Beijing, China, 2015, pp. 252-257. [IEEE Xplore](https://ieeexplore.ieee.org/document/7324301)
 
 - [4] G. K. Nair, N. Choudhary, and H. Purohit, "The Relationship between Gold Prices and Exchange Value of US Dollar in India," Emerging Markets Journal, vol. 5, no. 1, pp. 1–7, 2015. [Online](https://emaj.pitt.edu/ojs/emaj/article/view/66)
-
-## Next Steps
 
 ## Part 6: Contribution Table and Gantt Chart
 
