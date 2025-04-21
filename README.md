@@ -56,7 +56,7 @@ provides a baseline by modeling the relationship between gold prices and macroec
 indicators like inflation and interest rates. Finally, GMM will help identify market patterns such
 as high and low volatility periods, illustrating structural patterns that influence price movements.
 
-### Midterm
+### Final
 
 #### Data Preprocessing Strategies
 
@@ -94,7 +94,7 @@ inflation, and exchange rates, alongside a high R² score, low MAPE, and consist
 validated through cross-validation, which will provide insights to future investors into future
 market trends.
 
-### Midterm
+### Final
 
 ## Initial Results
 
@@ -181,7 +181,7 @@ Mechatronic Systems, Beijing, China, 2015, pp. 252-257. [IEEE Xplore](https://ie
 | Liam   | Contributed to Model 1 Design & Selection, Model 1 Data Visualization, Model 2 Data Visualization, Model 1 and Model 2 Results Evaluation, and Midterm Report. |
 | Jason  | Contributed to Model 1 Data Cleaning, Model 1 Feature Reduction, Model 2 Feature Reduction, Model 1 and Model 2 Results Evaluation, and Midterm Report. |
 | Krish  | Contributed to Model 1 Feature Reduction, Model 2 Design & Selection, Model 2 Coding & Implementation, Model 1 and Model 2 Results Evaluation, and Midterm Report. |
-| Samay  | Contributed to Model 1 Implementation & Coding, Model 2 Data Cleaning, Model 2 Feature Reduction, Model 1 and Model 2 Results Evaluation, and Midterm Report. |
+| Samay  | Contributed to Model 1 Implementation & Coding, Model 2 Data Cleaning, Model 2 Feature Reduction, Model 1 and Model 2 Results Evaluation, and   Report. |
 
 ---
 ### Final
