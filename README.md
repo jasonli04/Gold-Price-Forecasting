@@ -183,4 +183,15 @@ Mechatronic Systems, Beijing, China, 2015, pp. 252-257. [IEEE Xplore](https://ie
 | Krish  | Contributed to Model 1 Feature Reduction, Model 2 Design & Selection, Model 2 Coding & Implementation, Model 1 and Model 2 Results Evaluation, and Midterm Report. |
 | Samay  | Contributed to Model 1 Implementation & Coding, Model 2 Data Cleaning, Model 2 Feature Reduction, Model 1 and Model 2 Results Evaluation, and Midterm Report. |
 
+---
+### Final
+
+| Name   | Final Contributions |
+|--------|---------------------|
+| Aidan  | Contributed to Model 3 Design & Selection, Model 3 Data Cleaning, Model 3 Results Evaluation, M1-M3 Comparison, and Final Report. |
+| Jason  | Contributed to Model 3 Design & Selection, Model 3 Feature Reduction, Model 3 Results Evaluation, M1-M3 Comparison, and Final Report. |
+| Krish  | Contributed to Model 3 Data Cleaning, Model 3 Implementation & Coding, Model 3 Results Evaluation, M1-M3 Comparison, and Final Report. |
+| Liam   | Contributed to Model 3 Data Visualization, Model 3 Results Evaluation, M1-M3 Comparison, and Final Report. |
+| Samay  | Contributed to Model 3 Implementation & Coding, Model 3 Results Evaluation, M1-M3 Comparison, and Final Report. |
+
 
