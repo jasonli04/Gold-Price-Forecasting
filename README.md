@@ -138,6 +138,13 @@ As shown by the plot above, once we reach 4 groups, there seems to be an elbow. 
 #### KMeans Model Discussion
 Using KMeans allows us to segement the many features of the data into 4 distinct groups. This enables us to look at any day in the dataset, or in the future, and label it into one of these 4 groups, giving us an insight into how the gold price may move that day. However, it does seem that KMean is relatively hit-or-miss when it comes to evaluating our dataset. Some clusters are well-separated, while others have overlapping regions, indicating that K-Means might not have perfectly segmented the data. Regardless, this does give us some valuable insight in how the price of gold may change on a certain day, given other measures.
 
+## Neural Network
+#### Visualizations
+![True vs Predicted Prices](https://github.gatech.edu/sdesai328/Group17MLProject/assets/78113/d57190d2-8997-4dcd-b69e-0e6fb1ba8936)
+
+![Residual Plot](https://github.gatech.edu/sdesai328/Group17MLProject/assets/78113/5746aef7-846b-4f1e-9581-651737f97d0e)
+
+
 ## Next Steps
 
 With regard to our KMeans implementation, we would like to perform a Principal Component Analysis (PCA) on our dataset to reduce the dimensionality of our data. Since our dataset contains many featues, and some being highly correlated, it would benefit us a lot to "simplify" the data via dimensionality reduction. This would likely help our clustering perform even better, as higher dimensionality is known to cause clustering algorithms to perform poorly. PCA will help us by removing noise and focusing on the most important patterns. We could also explore a probabilistic view of our data, using a Gaussian Mixture Model (GMM) to visualize and classify our data. This is because the stock market and price movements of commodities can be stochastic in nature, with normal distributions underlying many models. Using a GMM will allow for flexible cluster shapes and probabilistic assignments, which is known to be useful when cluster boundaries are not clear-cut or data is complex, as such is our case. 
