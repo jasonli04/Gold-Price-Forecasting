@@ -157,7 +157,7 @@ Test R²: 0.9888
 ```
 
 #### Neural Network Discussion
-We can see from our visualizations that the neural network performs well in terms of analyzing different macroeconomic indicators and predicting the complex relationships between the many variables taht affect gold pricing. However, this model also has its limitations. We can see from the residual plot that the predictions generally stay within close range, but the model is susceptive to slight overpredictions or underpredictions particularly toward the more end of the time range.
+We can see from our visualizations that the neural network performs well in terms of analyzing different macroeconomic indicators and predicting the complex relationships between the many variables that affect gold pricing. However, this model also has its limitations. We can see from the residual plot that the predictions generally stay within close range, but the model is susceptive to slight overpredictions or underpredictions particularly toward the more end of the time range.
 
 Based on our traning and testing metrics, we can see that our training and test MSE are in a decent range, where our testing error is actually lower. Our $R^2$ values indivate theat the model explains the vast majority of the vairance in the data it is fed. Overall, our metrics show strong generalization and high accuracy, though there is still some room for improvement at extreme price points.
 
