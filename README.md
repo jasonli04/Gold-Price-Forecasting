@@ -149,7 +149,7 @@ With the neural network, he coped to capitalize on several of its advantages as 
 ![Residual Plot](https://github.gatech.edu/sdesai328/Group17MLProject/assets/78113/5746aef7-846b-4f1e-9581-651737f97d0e)
 
 #### Neural Network Discussion
-We can see from our visualizations that the neural network performs well in terms of incorporating and analyzing different macroeconomic indicators and predicting teh complex relationships between the many variables taht affect gold pricing. However, this model also has its limitations. We can see from the residual plot that the predictions generally stay within close range, but the model is susceptive to slight overpredictions or underpredictions particularly toward the more end of the time range.
+We can see from our visualizations that the neural network performs well in terms of analyzing different macroeconomic indicators and predicting the complex relationships between the many variables taht affect gold pricing. However, this model also has its limitations. We can see from the residual plot that the predictions generally stay within close range, but the model is susceptive to slight overpredictions or underpredictions particularly toward the more end of the time range.
 
 ## Next Steps
 
