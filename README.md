@@ -139,11 +139,17 @@ As shown by the plot above, once we reach 4 groups, there seems to be an elbow. 
 Using KMeans allows us to segement the many features of the data into 4 distinct groups. This enables us to look at any day in the dataset, or in the future, and label it into one of these 4 groups, giving us an insight into how the gold price may move that day. However, it does seem that KMean is relatively hit-or-miss when it comes to evaluating our dataset. Some clusters are well-separated, while others have overlapping regions, indicating that K-Means might not have perfectly segmented the data. Regardless, this does give us some valuable insight in how the price of gold may change on a certain day, given other measures.
 
 ## Neural Network
-#### Visualizations
+
+#### Explanation
+With the neural network, he coped to capitalize on several of its advantages as a predictive model. We had previously experimented with Random Forest, but found that it could not account for prices outside of the range of training data. This was not the case with the neural netowrk as it seemed to be a more adaptable model, that could accurately predict market trends regardless of the range of training or testing data.  
+
+#### Model and Visualizations
 ![True vs Predicted Prices](https://github.gatech.edu/sdesai328/Group17MLProject/assets/78113/d57190d2-8997-4dcd-b69e-0e6fb1ba8936)
 
 ![Residual Plot](https://github.gatech.edu/sdesai328/Group17MLProject/assets/78113/5746aef7-846b-4f1e-9581-651737f97d0e)
 
+#### Neural Network Discussion
+We can see from our visualizations that the neural network performs well in terms of incorporating and analyzing different macroeconomic indicators and predicting teh complex relationships between the many variables taht affect gold pricing. However, this model also has its limitations. We can see from the residual plot that the predictions generally stay within close range, but the model is susceptive to slight overpredictions or underpredictions particularly toward the more end of the time range.
 
 ## Next Steps
 
