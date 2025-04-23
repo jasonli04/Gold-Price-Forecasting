@@ -64,8 +64,8 @@ The first step was to obtain our data using Yahoo Finance and storing gold price
 
 #### Supervised and Unsupervised Algorithms
 
-As a major change from our initial proposal, we decided to change the algorithms we will implement since the initial attempts produced high MSE error on testing data versus training data. We chose to implement one unsupervised and one supervised learning model to classify our data into price predictions. 
-For our unsupervised learning model, we are using KMeans, and for our supervised learning model, we are using Ridge Regression.
+As a major change from our initial proposal, we decided to change the algorithms we will implement since the initial attempts produced high MSE error on testing data versus training data. We chose to implement one unsupervised and three supervised learning model to classify our data into price predictions. 
+For our unsupervised learning model, we are using KMeans, and for our supervised learning model, we are using Ridge Regression, Neural Network and Random Forest.
 
 Supervised Learning Model 1 (Ridge Regression): For our supervised learning method, we used Ridge Regression to forecast a specific daily Gold Close Price. We used ridge regression to add L2 regularization to prevent overfitting, especially with features that are very highly correlated, such as the USD/CHF and SP500. We split the data into 80% training and 20% testing to lead to the prediction of prices. We chose the ridge regression model because we wanted to prevent overfitting, so it can be more robust in predicting volatile markets. Additionally, the model handles multicollinearity well, making it suitable for financial datasets where predictor variables often move together, ensuring more stable and interpretable coefficient estimates.
 
@@ -162,6 +162,12 @@ Test R²: 0.9888
 We can see from our visualizations that the neural network performs well in terms of analyzing different macroeconomic indicators and predicting the complex relationships between the many variables that affect gold pricing. However, this model also has its limitations. We can see from the residual plot that the predictions generally stay within close range, but the model is susceptive to slight overpredictions or underpredictions particularly toward the more end of the time range.
 
 Based on our training and testing metrics, we can see that our training and test MSE are in a decent range, where our testing error is actually lower. Our $R^2$ values indicate that the model explains the vast majority of the variance in the data it is fed. Overall, our metrics show strong generalization and high accuracy, though there is still some room for improvement at extreme price points.
+
+## Random Forest
+
+#### Model + Quantitative Metrics
+
+#### Random Forest Discussion
 
 ## Next Steps
 
