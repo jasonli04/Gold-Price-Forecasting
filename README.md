@@ -168,6 +168,7 @@ Based on our training and testing metrics, we can see that our training and test
 #### Model + Quantitative Metrics
 
 #### Random Forest Discussion
+Looking at the Random forest vizualization and results, we can see the results are pretty skewed. At first, for the first few years, the model does pretty well at predicting the prices before 2024 as the predictions follow the actual prices. However past 2024, the predictions are unable to forecast the upward trend that occurs with the gold prices as it continues to predict prices that have a similar value as previous years. This is likely because since the training data, being split before these recent years, only contained values that capped around the 1800-1900 level, the decision trees were unable to grow past values that exceeded those prices making the predictions unable to reach the level of 2000-3000+ which prices are currently at. This lead to most of the forecasts to still following some of the similar spikes and falls that the actual prices did but were unable to reach the prices levels that the actual prices hit after 2024.
 
 ## Next Steps
 
