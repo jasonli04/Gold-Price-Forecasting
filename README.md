@@ -37,8 +37,6 @@ methods for price prediction and unsupervised methods for identifying market pat
 single-model approaches, the hybrid method will leverage diverse features and cross-validation
 to improve performance.
 
-
-
 ## Part 3: Methods
 
 ### Proposal
@@ -167,7 +165,19 @@ Based on our training and testing metrics, we can see that our training and test
 
 #### Model + Quantitative Metrics
 ![image](https://github.gatech.edu/sdesai328/Group17MLProject/assets/70457/c4ad86ac-cfd9-4575-b5f6-38bc8df96286)
+
 ![image](https://github.gatech.edu/sdesai328/Group17MLProject/assets/70457/fde1c6dd-0a3a-4aa4-9fd2-f1b22b11a8c8)
+
+We achieved these metrics:
+```
+Fold 1 - MSE: 75537.47, R²: -1.76
+Fold 2 - MSE: 232594.56, R²: -1.46
+Fold 3 - MSE: 2889.65, R²: 0.84
+Fold 4 - MSE: 2330.88, R²: 0.96
+Fold 5 - MSE: 116638.69, R²: -0.06
+Average MSE: 85998.25
+Average R²: -0.30
+```
 
 #### Random Forest Discussion
 Looking at the Random forest vizualization and results, we can see the results are pretty skewed. At first, for the beginning few years, the model does pretty well at predicting the prices before 2024 as the predictions follow the actual prices. However past 2024, the predictions are unable to forecast the upward trend that occurs with gold prices as it continues to predict prices that have a similar value as previous years. This is likely because since the training data, being split before these recent years, only contained values that capped around the 1800-1900 level. This made it so the decision trees were unable to grow past values that exceeded those levels, making the predictions unable to reach the level of 2000-3000+ which prices are currently at. This lead to most of the forecasts to still follow some of the similar spikes and falls that the actual prices did but were unable to reach the prices levels that the actual prices hit after 2024.
