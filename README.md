@@ -1,7 +1,7 @@
 # Gold Price Forecasting ML Models
 
 Hi everyone! This is the link to our Machine Learning Project Github Pages.
-https://github.gatech.edu/pages/sdesai328/Group17MLProject/
+https://github.gatech.edu/pages/jli3317/Gold-Price-Forecasting/
 
 Proposal Video: [Link](https://www.youtube.com/watch?v=OQ27c0DZCqA)
 
