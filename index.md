@@ -1,10 +1,10 @@
 # Gold Price Forecasting ML Models
 
-Github Pages: https://github.gatech.edu/pages/jli3317/Gold-Price-Forecasting/
+Github Pages: [Link](https://github.gatech.edu/pages/jli3317/Gold-Price-Forecasting/)
 
-Repo: https://github.gatech.edu/jli3317/Gold-Price-Forecasting/
+Repo: [Link](https://github.gatech.edu/jli3317/Gold-Price-Forecasting/)
 
-Proposal Video: Link
+Proposal Video: [Link](https://www.youtube.com/watch?v=OQ27c0DZCqA)
 
 
 ## Part 1: Literature Review and Dataset
