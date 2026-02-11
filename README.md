@@ -107,11 +107,12 @@ After implementing the first models, we saw that there was high correlation betw
 
 #### Model + Quantitative Metrics
 
-![ridge_regression_model](https://github.gatech.edu/sdesai328/Group17MLProject/assets/70457/0da553d6-297e-4264-8f32-e47b51995ea6)
+<img width="859" height="547" alt="image" src="https://github.com/user-attachments/assets/afa61093-c3c9-4a41-8d86-56c3a94c036c" />
 
-![ridge_regression_residuals](https://github.gatech.edu/sdesai328/Group17MLProject/assets/70457/792db509-94f4-4014-8722-02cb9bbc1d94)
+<img width="853" height="471" alt="image" src="https://github.com/user-attachments/assets/eed8015d-4bbf-43c8-9432-d44c90adfec5" />
 
-![Screenshot 2025-03-31 at 8 47 26 PM](https://github.gatech.edu/sdesai328/Group17MLProject/assets/70457/323ef232-886f-454f-a4f8-7f1463e1861c)
+<img width="324" height="347" alt="image" src="https://github.com/user-attachments/assets/9daa0b55-d5c4-447a-a534-b66ba887a059" />
+
 
 #### Ridge Regression Model Evaluation + Discussion
 Though on first glance, the model may seem overfitted, as the predicted gold close line matches the true gold close to a striking degree, we believe that our model is not overfitted. Models that suffer from severe overfitting exhibit a very high Training $R^2$ and a much lower Testing $R^2$. This is becasue overfitted models generalize poorly to unseen data, resulting in a low R-squared on the test data. However, our model doesn't suffer from this same plight. With a Testing $R^2$ of 0.9998 and a Testing $R^2$ of 0.9983, the model performs very strongly on both the training set and testing set, showing that it generalizes nicely. Additionally, we can say the same about the Mean Squared Error Values. Both the training and testing set exhibit similar MSE values (~52), showing that we indeed are not overfitting. Thus, based on the strong metrics, we can be pretty confident in our model and its ability to predict gold prices.
@@ -120,15 +121,15 @@ Though on first glance, the model may seem overfitted, as the predicted gold clo
 
 #### Determining Number of Groups
 
-![kmeans_cluster_elbows](https://github.gatech.edu/sdesai328/Group17MLProject/assets/70457/aff7786f-1406-4ea8-b0a2-249e6f759800)
+<img width="721" height="547" alt="image" src="https://github.com/user-attachments/assets/f7dd1849-0e94-4170-abb5-64b89792f435" />
 
 As shown by the plot above, once we reach 4 groups, there seems to be an elbow. The point suggests diminishing returns from adding more clusters, thus we chose to proceed with 4 clusters.
 
 #### KMeans Model
 
-![kmeans_image](https://github.gatech.edu/sdesai328/Group17MLProject/assets/70457/5ebce3cc-5025-40dc-9917-be61d8d7f3b1)
+<img width="2788" height="2790" alt="image" src="https://github.com/user-attachments/assets/2ff68441-5426-4f0c-9f8f-f8cd304701cb" />
 
-![Screenshot 2025-03-31 at 9 25 12 PM](https://github.gatech.edu/sdesai328/Group17MLProject/assets/70457/69fcec71-7700-4c84-854d-b2ae1106bf1e)
+<img width="477" height="390" alt="image" src="https://github.com/user-attachments/assets/ff52ac72-a56d-453c-9983-bda494611d0e" />
 
 ##### Group Classifications: 
 - Cluster 0 (Purple): Bullish Gold Market (Rising gold prices, high RSI, moderate economic uncertainty)
@@ -145,9 +146,9 @@ Using KMeans allows us to segement the many features of the data into 4 distinct
 With the neural network, he coped to capitalize on several of its advantages as a predictive model. We had previously experimented with Random Forest, but found that it could not account for prices outside of the range of training data. This was not the case with the neural netowrk as it seemed to be a more adaptable model, that could accurately predict market trends regardless of the range of training or testing data.  
 
 #### Model and Visualizations
-![True vs Predicted Prices](https://github.gatech.edu/sdesai328/Group17MLProject/assets/78113/d57190d2-8997-4dcd-b69e-0e6fb1ba8936)
+<img width="859" height="547" alt="image" src="https://github.com/user-attachments/assets/d1674f78-2544-46e5-9c9b-9a6e6865dc3a" />
 
-![Residual Plot](https://github.gatech.edu/sdesai328/Group17MLProject/assets/78113/5746aef7-846b-4f1e-9581-651737f97d0e)
+<img width="862" height="471" alt="image" src="https://github.com/user-attachments/assets/967cd4a7-bc71-45fb-a919-b1930e360cf2" />
 
 We acheived these metrics:
 ```
@@ -165,9 +166,9 @@ Based on our training and testing metrics, we can see that our training and test
 ## Random Forest
 
 #### Model + Quantitative Metrics
-![image](https://github.gatech.edu/sdesai328/Group17MLProject/assets/70457/c4ad86ac-cfd9-4575-b5f6-38bc8df96286)
+<img width="1189" height="590" alt="image" src="https://github.com/user-attachments/assets/05415872-cef3-4019-8af0-f7b48b491e21" />
 
-![image](https://github.gatech.edu/sdesai328/Group17MLProject/assets/70457/fde1c6dd-0a3a-4aa4-9fd2-f1b22b11a8c8)
+<img width="989" height="490" alt="image" src="https://github.com/user-attachments/assets/92200609-0043-440f-81a0-88da78eaea5c" />
 
 We achieved these metrics:
 ```
