@@ -126,7 +126,11 @@ As shown by the plot above, once we reach 4 groups, there seems to be an elbow. 
 
 #### KMeans Model
 
-<img width="2788" height="2790" alt="image" src="https://github.com/user-attachments/assets/4d16840a-d1b2-449b-b47b-4df03b835d30" />
+<div style="text-align:center;">
+  <img src="https://github.com/user-attachments/assets/4d16840a-d1b2-449b-b47b-4df03b835d30"
+       alt="Pairwise Feature Plots for Clusters"
+       style="max-width:900px; width:100%; height:auto;">
+</div>
 
 <img width="477" height="390" alt="image" src="https://github.com/user-attachments/assets/063321b1-6ab0-4fea-82ea-f3db01dd17de" />
 
